@@ -3,34 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Array Manipulator</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Array Manipulation</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to external CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
 </head>
 <body>
     <div class="container">
-        <h2>Current Array:</h2>
-        <ul id="arrayDisplay"></ul>
-
-        <h1>Array Manipulator</h1>
-        <input type="text" placeholder="Enter the values" id="inputbox" />
-        <button id="addBtn" onclick="generateArray()">Add</button>
+        <h2>Array Manipulation</h2>
+        <input type="text" id="inputbox" placeholder="Enter values, separated by commas">
+        <br>
+        <button id="generateBtn" onclick="generateArray()">Generate Array</button>
         <button id="popBtn">Pop</button>
         <button id="pushBtn">Push</button>
         <button id="shiftBtn">Shift</button>
         <button id="unshiftBtn">Unshift</button>
         <button id="sliceBtn">Slice</button>
         <button id="spliceBtn">Splice</button>
+        <ul id="arrayDisplay"></ul>
     </div>
 
-    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="app.js"></script> <!-- Link to external JavaScript -->
 </body>
 </html>
-
-
-
-
-
-
-
-
