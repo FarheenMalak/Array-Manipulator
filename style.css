@@ -1,6 +1,7 @@
+/* Global styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4; 
+    background-color: #f4f4f4;
     color: #333;
     display: flex;
     justify-content: center;
@@ -9,6 +10,7 @@ body {
     margin: 0;
 }
 
+/* Container styling */
 .container {
     background: white;
     padding: 20px;
@@ -17,10 +19,12 @@ body {
     text-align: center;
 }
 
+/* Header style */
 h2 {
     color: #285ba7;
 }
 
+/* Input styling */
 input {
     padding: 10px;
     margin: 10px 0;
@@ -29,6 +33,7 @@ input {
     border-radius: 4px;
 }
 
+/* Button styling */
 button {
     padding: 10px 15px;
     margin: 5px;
@@ -41,42 +46,37 @@ button {
 }
 
 button:hover {
-    background-color: #1a3d72; 
+    background-color: #1a3d72;
     transform: translateY(-4px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Array display styling */
 ul {
     list-style-type: none;
     padding: 10px;
     margin-top: 20px;
     border-radius: 8px;
-    display: flex; 
-    flex-wrap: wrap; 
+    display: flex;
+    flex-wrap: wrap;
 }
 
+/* List item styling */
 .array-item {
     margin: 5px;
 }
 
+/* Styling for buttons inside array items */
 .array-item button {
     padding: 10px;
-    background-color: #4caf50; /* Green background color */
+    background-color: #4caf50; /* Green background */
     border: none;
-    color: white; /* Text color */
+    color: white;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .array-item button:hover {
-    background-color: #388e3c; /* Darker green shade on hover */
+    background-color: #388e3c; /* Darker green on hover */
 }
-
-
-
-
-
-
-
-
