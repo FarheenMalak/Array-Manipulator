@@ -61,17 +61,18 @@ ul {
 
 .array-item button {
     padding: 10px;
-    background-color:  #e0f7fa; /* Different shade for array items */
+    background-color: #4caf50; /* Green background color */
     border: none;
-    color:#1a3d72 ;
+    color: white; /* Text color */
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .array-item button:hover {
-    background-color:#bdebf1 ; /* Darker shade on hover */
+    background-color: #388e3c; /* Darker green shade on hover */
 }
+
 
 
 
